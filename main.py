@@ -11,3 +11,8 @@ while True:
     ans = input('Continue? (Y/N)')
     if ans.lower() == 'n' or ans.lower() == 'no':
         break
+
+for student in group:
+    for value in student.values():
+        print(value, end=' | ')
+    print()
