@@ -8,3 +8,6 @@ while True:
     student = {'id': counter, 'name': name, 'surname': surname, 'date_of_birth': date_of_birth}
     group.append(student)
     counter += 1
+    ans = input('Continue? (Y/N)')
+    if ans.lower() == 'n' or ans.lower() == 'no':
+        break
